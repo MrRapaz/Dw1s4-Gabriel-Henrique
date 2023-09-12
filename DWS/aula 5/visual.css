@@ -1,0 +1,37 @@
+/*mudar a cor do plano de fundo*/
+.fundo{
+    background-color: purple;
+}
+
+/*mudar cor do texto*/
+.texto{
+    color: yellow;
+}
+/* colocar bordas => border */
+/* os 3 parametros são obrigatorios*/
+.borda{
+    border: 1px solid rgb(red, green, blue);
+}
+.verde{
+    background: green;
+}
+.vermelho{
+    background: red;
+}
+.textoazul{
+    color: aqua;
+}
+
+.preto{
+    background: black;
+}
+
+.gg{
+    background: peru;
+}
+.fgt{
+    background: royalblue
+}
+.padding td{
+    padding: 5px;
+    }
