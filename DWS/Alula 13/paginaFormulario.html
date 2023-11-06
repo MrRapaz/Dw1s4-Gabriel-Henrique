@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodge Engines</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-field {
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 8px;
+          margin-bottom: 10px;
+        }
+      </style>
+</head>
+<body>
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <img src="https://www.dodgegarage.com/news-api/wp-content/uploads/2020/11/HEMI-Engine-V-Feature.png"
+                width="120vw" alt="Motor V8">
+            <h3 class="mr-5 center px-1">Dodge Engines</h3>
+            <li class="nav-item">
+                <a class="nav-link" href="paginaHome.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="paginaSobre.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="paginaFormulario.html">Entre Em Contato</a>
+            </li>
+        </ul>
+    </div>
+
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Formulário</h1>
+
+    <form>
+      <div class="row">
+        <div class="col-6 mb-3">
+          <label for="campoTexto" class="form-label">Nome</label>
+          <input type="text" class="form-control form-field" id="campoTexto" placeholder="Digite seu texto aqui">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="campoEmail" class="form-label">E-mail</label>
+          <input type="email" class="form-control form-field" id="campoEmail" placeholder="seuemail@example.com">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="campoTelefone" class="form-label">Telefone</label>
+          <input type="tel" class="form-control form-field" id="campoTelefone" placeholder="(99) 9999-9999">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="campoURL" class="form-label">CPF</label>
+          <input type="url" class="form-control form-field" id="campoURL" placeholder="xxx-xxx-xxx-xx ">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="campoNumerico" class="form-label">idade</label>
+          <input type="number" class="form-control form-field" id="campoNumerico">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="campoData" class="form-label">Data</label>
+          <input type="date" class="form-control form-field" id="campoData">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="campoArquivo" class="form-label">Envio foto do documento para verificação</label>
+          <input type="file" class="form-control form-field" id="campoArquivo">
+        </div>
+
+        <div class="col-6 mb-3">
+          <label for="listaSuspensa" class="form-label">SEXO</label>
+          <select class="form-select form-field" id="listaSuspensa">
+            <option value="opcao1">F</option>
+            <option value="opcao2">M</option>
+
+          </select>
+        </div>
+
+        <div class="col-12 mb-3">
+          <label for="campoTextoLongo" class="form-label">descrição </label>
+          <textarea class="form-control form-field" id="campoTextoLongo" rows="3"></textarea>
+        </div>
+
+        <div class="col-6 mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="checagemUnica">
+          <label class="form-check-label" for="checagemUnica">Efetuar compra</label>
+        </div>
+
+        <div class="col-6 mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="checagemMultipla1">
+          <label class="form-check-label" for="checagemMultipla1">Comprar</label>
+        </div>
+
+        <div class="col-6 mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="checagemMultipla2">
+          <label class="form-check-label" for="checagemMultipla2">Visita tecnica</label>
+        </div>
+
+        <div class="col-12 mb-3">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="reset" class="btn btn-secondary">Limpar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+    
+</body>
+</html>
